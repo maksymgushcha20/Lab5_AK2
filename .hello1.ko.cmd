@@ -1,0 +1,1 @@
+cmd_/home/ubuntu20/SP_lab_work/Lab4/hello1.ko := ld -r  -m elf_x86_64 -z noexecstack   --build-id=sha1  -T scripts/module.lds -o /home/ubuntu20/SP_lab_work/Lab4/hello1.ko /home/ubuntu20/SP_lab_work/Lab4/hello1.o /home/ubuntu20/SP_lab_work/Lab4/hello1.mod.o;  true

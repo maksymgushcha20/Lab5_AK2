@@ -1,0 +1,1 @@
+cmd_/home/ubuntu20/SP_lab_work/Lab4/Module.symvers := sed 's/\.ko$$/\.o/' /home/ubuntu20/SP_lab_work/Lab4/modules.order | scripts/mod/modpost -m -a  -o /home/ubuntu20/SP_lab_work/Lab4/Module.symvers -e -i Module.symvers   -T -
